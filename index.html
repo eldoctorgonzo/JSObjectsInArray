@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carga de Datos de Personal</title>
+    <script src="objetos.js"></script>
+    <style>
+        body{
+            font-family: sans-serif;
+            padding:15px;
+            text-align: center;
+        }
+        #lista-personal{
+            margin:10px auto 10px auto;
+            border:1px solid #cacaca;
+        }
+
+        #lista-personal td{
+            padding:5px;
+            border:1px solid #cacaca;
+        }
+
+        #lista-personal th{
+            padding:5px;
+            border:1px solid #cacaca;
+            background-color: grey;
+            color:white;
+        }
+
+        #btn-agregar-registro{
+            padding:10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+   <h2>Lista de Personal de la Institución</h2>
+   <table id="lista-personal">
+       <tr>
+           <th>Nombre</th>
+           <th>Apellido</th>
+           <th>Edad</th>
+           <th>Cargo</th>
+           <th>Remuneración</th>
+       </tr>
+
+   </table>
+   <button id="btn-agregar-registro">AGREGAR REGISTRO...</button>
+</body>
+</html>
